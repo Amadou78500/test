@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+p{
+    font-weight: 300;
+    color: #1111;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0,5s;
+    background-color: #fa2323;
+
+}
+
+header .sticky{
+    padding: 5px 100px;
+    color: #b1b1b1;
+}
+
+header .sticky ul li a{
+    background-color: white;
+}
+.logo{
+    color:white ;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    text-transform: capitalize;
+}
+
+.logo span{
+    color: green;
+    font-family: 'Jim Nightshade', cursive;
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar a{
+    color: #ffff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    justify-content: space-evenly
+}
+
+.pbtn a{
+    margin-left: 60px;
+}
+.pbtn{
+    justify-content: flex-end;
+}
+
+.btn-reserver{
+    padding: 10px 20px;
+    background: white;
+    margin-top: -10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+#btn-text{
+    color: black;
+    text-transform: uppercase;
+}
+
+.btn-reserver:hover{
+    background: black;
+    transition: ease-out;
+}
+
+#btn-text:hover{
+    color: rgb(255, 255, 255);
+}
+
+.btn-connexion{
+    padding: 10px 20px;
+    background: white;
+    margin-top: -10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+#btn-text-2{
+    color: black;
+    text-transform: uppercase;
+}
+
+.btn-connexion:hover{
+    background: #000000;
+    transition: ease-out;
+}
+
+#btn-text-2:hover{
+    color: white;
+}
+
+header .navbar li a:hover{
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid white;
+}
+
+h2{
+    color:white ;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: 'Jim Nightshade', cursive;
+    text-decoration: underline white;
+}
+
+h2 span{
+    color: green;
+    font-family: 'Jim Nightshade', cursive;
+    text-transform: capitalize;
+}
+
+.banniere{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/images/pizza.jpg);
+    background-size: cover;
+}
+
+.banniere .contenu{
+    max-width: 70%;
+    text-align: center;
+}
+
+.contenu h2{
+    font-size: 6em;
+}
+
+#btn-adresse{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.contenu .btn-adresse{
+    font-size: 1,2em;
+    padding: 10px 20px;
+    background: rgb(255, 0, 0);
+    margin-top: -10px;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+#btn-adresse:hover{
+    color: rgb(255, 0, 0);
+}
+
+.contenu .btn-adresse:hover{
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+}
+
+.sous-chapitre{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+section{
+    padding: 15%;
+    background-color: #fa2323;
+}
+
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.row .col50{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;   
+}
+
+.row .col50 h2{
+    margin-bottom:30px ;
+
+}
+
+.lieu{
+    width: 10%;
+    height: 10%;
+}
+
+footer{
+    background-color: #b1b1b1;
+    border-top: 2px solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tailleblockfoot{
+    height: 150px   ;
+    justify-content: space-evenly;
+}
+
+.contenu-footer{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.pfoot{
+    color: black;
+}
